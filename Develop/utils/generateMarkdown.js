@@ -62,12 +62,12 @@ ${data.description}
 
 ## Table of Contents
 
-*[Installation](#-installation)
-*[Usage](#-usage)
-*[License](#-license)
-*[Contributing](#-contributing)
-*[Tests](#-tests)
-*[Contact](#-contact)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Contact](#contact)
 
 ## Installation
 ${data.installation}
