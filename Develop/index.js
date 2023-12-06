@@ -1,14 +1,13 @@
 
-
-// initialize variables
+// getting libraries
 const fs = require('fs');
 
 const inquirer = require('inquirer');
 
 // link markdown js file
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown');
 
-// validate user input
+// validate user input 
 function validateInput(value) {
   if (value != "") {
     return true;
@@ -17,8 +16,7 @@ function validateInput(value) {
   }
 };
 
-
-// questions for user input 
+// command line prompts
 const questions = [
   {
     type: 'input',
@@ -32,7 +30,8 @@ const questions = [
     message: 'Provide a short description of your project:',
     validate: validateInput
   },
-// This is where the table of contents will be located
+
+  // this is where the table of contents will be located
 
   {
     type: 'input',
@@ -93,7 +92,6 @@ const questions = [
     }
   }
 ];
-
 
 // write README file
 function writeToFile(fileName, data) {
