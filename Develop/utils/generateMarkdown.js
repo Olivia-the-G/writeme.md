@@ -1,3 +1,5 @@
+
+// license data lists to be accessed by the functions
 const licenseList = {
   'GNU AGPLv3': 'https://img.shields.io/badge/License-GNU_AGPLv3-orange?style=flat-square&link=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Fagpl-3.0.en.html',
   'GNU GPLv3': 'https://img.shields.io/badge/License-GNU_GPLv3-green?style=flat-square&link=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Fgpl-3.0.en.html',
@@ -20,17 +22,14 @@ const licenseSources = {
   'NO LICENSE': ''
 };
 
-// const badgeURL = licenseList[data.license];
-
+// use selected license to get information from both objects
 function badgeURL(license) {
   return licenseList[license];
-}
-
-// const badgeLink = licenseSources[data.license];
+};
 
 function badgeLink(license) {
   return licenseSources[license];
-}
+};
 
 // generate license badge
 function renderLicenseBadge(license) {
@@ -40,19 +39,18 @@ function renderLicenseBadge(license) {
   } else {
     return `[![License: ${license}](${badgeURL(license)})](${badgeLink(license)})`;
   }
-}
-
+};
 
 // generate license section of the readme
 function renderLicenseSection(license) {
   if (license === 'NO LICENSE') {
     return '';
   } else {
-    return `This application is under the ${license} license. To see full license details, [click here](${badgeLink(license)})`
+    return `This application is under the ${license} license. To see full license details, [click here](${badgeLink(license)})`;
   }
-}
+};
 
-// generate markdown for the README
+// generate markdown for the readme
 function generateMarkdown(data) {
   return `
 # ${data.title} ${renderLicenseBadge(data.license)}
@@ -87,9 +85,9 @@ ${data.tests}
 ## Questions
 
 If you would like to inquire about anything in this project, use the following information,
-GitHub: [${data.github}](https://github.com/${data.github})
-Email Address: ${data.email}
+- GitHub: [${data.github}](https://github.com/${data.github})
+- Email Address: ${data.email}
 `;
-}
+};
 
 module.exports = generateMarkdown;
