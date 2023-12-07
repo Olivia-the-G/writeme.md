@@ -3,7 +3,7 @@
 
 ## Description
 
-This project is an easy-to-use command line application for generating simple README files. It is meant to help deveolpers by allowing them to devote more time and effort on coding instead of spending it on writing a README. This project was a personal learning experience on creating command line applications and using node.js. 
+This project is an **easy-to-use command line application** for generating **simple README files**. It is meant to help deveolpers by allowing them to **devote more time and effort to coding** instead of spending it on writing a README. This project was a personal learning experience on creating command line applications and using node.js. 
 
 ## 📘 Table of Contents
 
@@ -14,13 +14,40 @@ This project is an easy-to-use command line application for generating simple RE
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install this project...
+
+1. Clone the repository to your computer using the command,
+
+```
+git clone 'repository url'
+```
+
+2. Install code dependencies by running,
+
+```
+npm install
+```
+
+3. Should be all set 👍
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use the README generator, 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+1. Open the command line and cd into the code repository. Make sure you are in the "Develop" folder.
+
+```
+cd writeme.md
+cd Develop
+```
+
+2. Once in the correct path run the command,
+
+```
+node index.js
+```
+
+3. Now you should start receiving the prompts in your terminal for your README content. Here is an example of what it will look like in the CL
 
     ```md
     ![alt text](assets/images/screenshot.png)
