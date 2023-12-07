@@ -21,12 +21,12 @@ This project was a personal learning experience on creating command line applica
 
 *To install this project*
 
-1. Clone the repository to your computer using the command,
+1. Clone the repository to your computer using the command:
 
         git clone 'repository url'
 
 
-2. Install code dependencies by running,
+2. Install code dependencies by running:
 
         npm install
 
@@ -42,22 +42,21 @@ Now you should be all set 👍
         cd writeme.md
         cd Develop
 
-
-2. Once in the correct path run the command,
+2. Once in the correct path run the command:
 
         node index.js
 
-3. Now you should start receiving the prompts in your terminal for your README content. Here is an example of what it will look like in the CL
+3. Now you should start receiving the prompts in your terminal for your README content. Here is an example of what it will look like in the CL:
 
     ![WriteME md example](https://github.com/Olivia-the-G/writeme.md/assets/130778807/2701f8d3-abe6-4c6f-9000-f870a553afd6)
 
-## License
+## 🏛️ License
 
 MIT License - [click here to see details](./LICENSE)
 
-## Questions
+## Questions❓
 
-If you would like to inquire about anything in this project **here is my contact information**
+If you would like to inquire about anything in this project **here is my contact information:**
 
 - GitHub: [Olivia-the-G](https://github.com/Olivia-the-G)
 - Email Address: olivia.a.gowan@gmail.com
