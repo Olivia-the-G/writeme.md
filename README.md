@@ -57,7 +57,7 @@ MIT License - [click here to see details](./LICENSE)
 
 ## Questions
 
-If you would like to inquire about anything in this project contact me here...
+If you would like to inquire about anything in this project **here is my contact information**
 
 - GitHub: [Olivia-the-G](https://github.com/Olivia-the-G)
 - Email Address: olivia.a.gowan@gmail.com
