@@ -1,8 +1,8 @@
 
-# WriteME.md [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&link=https%3A%2F%2Fopensource.org%2Flicense%2Fmit%2F)](https://opensource.org/license/mit/)
+# WriteMe.md [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&link=https%3A%2F%2Fopensource.org%2Flicense%2Fmit%2F)](https://opensource.org/license/mit/)
 
 ## Description 
-Here is your project description
+here is a project description
 
 ## Table of Contents
 
@@ -14,19 +14,19 @@ Here is your project description
 - [Contact](#contact)
 
 ## Installation
-Here are your installation instructions
+here are installation instructions
 
 ## Usage
-Here are your usage instructions
+how to use the project
 
 ## License
 This application is under the MIT license. To see full license details, [click here](https://opensource.org/license/mit/)
 
 ## Contributing
-Instructions for contributors
+heres how others can contribute
 
 ## Tests
-Here are your testing instructions
+here are testing instructions
 
 ## Questions
 
