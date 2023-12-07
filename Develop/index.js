@@ -106,7 +106,6 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((data) => {
     console.log(JSON.stringify(data, null, " "));
-    // data.licenseSection = licenseSection(data.license);
     writeToFile("./demo/README.md", data);
   }
   )

@@ -1,8 +1,8 @@
 
-# test [![License: GNU AGPLv3](https://img.shields.io/badge/License-GNU_AGPLv3-orange?style=flat-square&link=https%3A%2F%2Fwww.gnu.org%2Flicenses%2Fagpl-3.0.en.html)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+# WriteME.md [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&link=https%3A%2F%2Fopensource.org%2Flicense%2Fmit%2F)](https://opensource.org/license/mit/)
 
 ## Description 
-test
+Here is your project description
 
 ## Table of Contents
 
@@ -14,19 +14,19 @@ test
 - [Contact](#contact)
 
 ## Installation
-test
+Here are your installation instructions
 
 ## Usage
-test
+Here are your usage instructions
 
 ## License
-This application is under the GNU AGPLv3 license. To see full license details, [click here](https://www.gnu.org/licenses/agpl-3.0.en.html)
+This application is under the MIT license. To see full license details, [click here](https://opensource.org/license/mit/)
 
 ## Contributing
-test
+Instructions for contributors
 
 ## Tests
-test
+Here are your testing instructions
 
 ## Questions
 
