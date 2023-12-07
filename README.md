@@ -50,7 +50,7 @@ Now you should be all set 👍
 
     ![WriteME md example](https://github.com/Olivia-the-G/writeme.md/assets/130778807/2701f8d3-abe6-4c6f-9000-f870a553afd6)
 
-## 🏛️ License
+## License
 
 MIT License - [click here to see details](./LICENSE)
 
